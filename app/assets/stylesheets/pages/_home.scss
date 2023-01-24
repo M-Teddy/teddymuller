@@ -1,1 +1,14 @@
-// Specific CSS for your home-page
+
+.picture{
+  font-family: "Proxima Nova", sans-serif;
+  height: 600px;
+  width: 100%;
+  padding-top: 200px;
+  h2{
+    font-size: 40px;
+  }
+}
+
+#teddymuller{
+  background-image: url(../app/assets/images/teddymuller.png);
+}
