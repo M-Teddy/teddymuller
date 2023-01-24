@@ -1,4 +1,5 @@
 .nav {
+  font-family: "Proxima Nova", sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 20px 0 10px 0;
@@ -17,8 +18,10 @@
       font-size: 20px;
       color: #000000;
       &:hover{
-        color: #8d3adf;
+        transition: 400ms;
+        color: #EC2E57;
         opacity: 1;
+        text-decoration: underline;
       }
     }
   }
@@ -34,10 +37,12 @@
     a{
       text-decoration: none;
       font-size: 20px;
-      color: #8074ee;
+      color: #1AABAC;
       &:hover{
-        color: #8d3adf;
+        transition: 400ms;
+        color: #EC2E57;
         opacity: 1;
+        text-decoration: underline;
       }
     }
   }
