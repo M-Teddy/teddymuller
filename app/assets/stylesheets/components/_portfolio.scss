@@ -40,7 +40,20 @@ hr{
       // opacity: 1;
     }
   }
+
+  @media screen and (min-width: 320px) {
+    grid-template-columns: 1fr;
   }
+
+  @media screen and (min-width: 960px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (min-width: 1440px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
 
   .card {
     font-family: "Proxima Nova", sans-serif;

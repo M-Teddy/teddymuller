@@ -46,6 +46,36 @@
       }
     }
   }
+  .btn-menu{
+    color: #1AABAC;
+    @media screen and (min-width: 768px){
+    display: none;
+    }
+  }
+  .menu{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    @media screen and (max-width: 768px){
+      display: none;
+      }
+    li{
+      margin: 0 10px;
+    }
+  }
+  .menu-open {
+    display: block;
+    li{
+      color: white;
+    }
+  }
+  // .menu li{
+  //   margin: 0 10px;
+  // }
+
+  // .menu-open li {
+  //   color: white;
+  // }
 }
 .position{
   position: fixed;

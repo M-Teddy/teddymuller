@@ -7,7 +7,8 @@
       </ul>
     </div>
     <div class="item">
-        <ul>
+      <button class="btn-menu"><i class="fa-sharp fa-solid fa-bars"></i></button>
+        <ul class="menu">
           <li><a href="#portfolio" class="bouton"><strong>Portfolio</strong></a></li>
           <li><a href="#kindwords" class="bouton"><strong>Kind Words</strong></a></li>
           <li><a href="#work" class="bouton"><strong>Work?</strong></a></li>
@@ -17,3 +18,10 @@
     </div>
   </nav>
 </header>
+
+<script>
+document.querySelector('.btn-menu').addEventListener('click', (e) => {
+  e.preventDefault();
+  document.querySelector('.menu').classList.toggle('menu-open');
+})
+</script>
