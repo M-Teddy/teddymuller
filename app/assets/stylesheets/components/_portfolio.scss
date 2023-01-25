@@ -1,22 +1,23 @@
-h1{
-  margin-top: 80px;
-  font-family: "Proxima Nova", sans-serif;
-  font-size: 50px;
-  color: #EC2E57
-}
-h4{
-  margin-top: 20px;
-  font-family: "Proxima Nova", sans-serif;
-  font-size: 20px;
+.portfolio{
+  &__title{
+    margin-top: 80px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #EC2E57
+  }
+  &__check{
+    margin-top: 20px;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 20px;
+  }
 }
 
 hr{
-
-  // border-left: 29px solid #000;
-  // height: 130px;
   width: 80px;
   size: 10px;
   margin-top: 30px;
+  font-weight: bold;//comment le rendre bold?
 }
 
 .cards {
@@ -61,81 +62,29 @@ hr{
     background-size: cover;
     background-position: center;
     width: 100%;
-    // box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
     overflow: hidden;
-    // font-size: 15px;
     color: rgb(0, 0, 0);
     border-radius: 0px;
     transition: box-shadow 250ms;
     border: none;
-
+    &__title{
+      margin: 20px;
+      font-size: 10px;
+      font-weight: bold;
+    }
     img{
       object-fit: cover;
+      width: 100%;
       height: 400px;
     }
 
     a {
       color: black;
-
-
       :hover{
         opacity: 0.8;
         box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
       }
     }
-
-    h4 {
-      margin: 4px;
-    }
-
-    p {
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
-
-
-    &__img{
-      object-fit: cover;
-      height: 300px;
-      width: 100%;
-
-      &--full{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      }
-    }
-
-
-    &__info{
-      padding: 16px;
-    }
-
-    &__link{
-      text-decoration: none;
-      flex-direction: row;
-      color: black;
-
-      p{
-        text-align: center;
-        margin-top: 10px;
-        font-size: 20px;
-      }
-    }
-  }
-  .add{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    opacity: 0;
-
-      a{
-        text-decoration: none;
-      }
-
   }
