@@ -23,7 +23,6 @@ hr{
   font-family: "Proxima Nova", sans-serif;
   flex-grow: 1;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 30px;
   padding: 20px 20px 20px 0;
   h6{
@@ -34,8 +33,10 @@ hr{
     text-decoration: none;
     font-size: 20px;
     color: #000000;
+    display: inline-block;
+    width: 100%;
     &:hover{
-      transition: 400ms;
+      transition:all 400ms;
       color: #EC2E57;
       // opacity: 1;
     }
@@ -46,11 +47,11 @@ hr{
   }
 
   @media screen and (min-width: 960px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media screen and (min-width: 1440px) {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
 }
@@ -59,9 +60,7 @@ hr{
     font-family: "Proxima Nova", sans-serif;
     background-size: cover;
     background-position: center;
-    height: 340px;
-    width: 400px;
-    margin-top: 20px;
+    width: 100%;
     // box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
     display: flex;
     align-items: center;
@@ -72,8 +71,9 @@ hr{
     transition: box-shadow 250ms;
     border: none;
 
-    &:hover{
-      // box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    img{
+      object-fit: cover;
+      height: 400px;
     }
 
     a {
