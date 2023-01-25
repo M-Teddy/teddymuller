@@ -1,0 +1,103 @@
+h1{
+  margin-top: 80px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 50px;
+  color: #EC2E57
+}
+h4{
+  margin-top: 20px;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 20px;
+}
+
+hr{
+
+  // border-left: 29px solid #000;
+  // height: 130px;
+  width: 80px;
+  size: 10px;
+  margin-top: 30px;
+}
+
+.cards-kind {
+  font-family: "Proxima Nova", sans-serif;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px 20px 20px 0;
+  h6{
+    padding-top: 20px;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    &:hover{
+      transition: 400ms;
+      color: #EC2E57;
+      // opacity: 1;
+    }
+  }
+  }
+  .card-kind{
+    font-family: "Proxima Nova", sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 500px;
+    margin-top: 20px;
+    // box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    // font-size: 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    border: solid 5px #fae9d2;
+  }
+
+  .card-kind-int {
+    font-family: "Proxima Nova", sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 400px;
+    margin-top: 20px;
+    align-items: center;
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    border-radius: 0px;
+    transition: box-shadow 250ms;
+
+    a {
+      color: black;
+      :hover{
+        opacity: 0.8;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      }
+    }
+
+    h4 {
+      line-height: 35px;
+    }
+
+
+  p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+}
+.card-kind-info{
+  display:flex;
+  margin-top: 20px;
+  h6{
+    margin-left: 10px;
+    font-family: "Proxima Nova", sans-serif;
+  }
+}

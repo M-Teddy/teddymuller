@@ -1,14 +1,66 @@
 
-.picture{
+.picture-tm{
   font-family: "Proxima Nova", sans-serif;
   height: 600px;
   width: 100%;
   padding-top: 200px;
+  color: white;
   h2{
-    font-size: 40px;
+    font-size: 50px;
+  }
+  h5{
+    font-size: 20px;
+  }
+  a{
+    font-size: 20px;
+    color: white;
   }
 }
 
 #teddymuller{
-  background-image: url(../app/assets/images/teddymuller.png);
+  background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1674630948/Portfolio/teddy_hnonul.jpg);
+}
+
+.picture-band{
+  font-family: "Proxima Nova", sans-serif;
+  height: 400px;
+  width: 100%;
+  // padding-top: 200px;
+  color: white;
+  margin: 100px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h2{
+    font-size: 50px;
+  }
+  h5{
+    font-size: 30px;
+  }
+  a{
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+  }
+}
+
+.btn-malt{
+  font-family:'Courier New', Courier, monospace;
+  font-weight:bold;
+  background-color:  #1AABAC;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  opacity: 1;
+  &:hover{
+    opacity: 0.5;
+  }
+  &:after{
+    color: #EC2E57;
+  }
+}
+
+#work{
+  background-image: url(https://res.cloudinary.com/dezfv3vmn/image/upload/v1674640423/Portfolio/bandeau_dlnppu.jpg);
 }
