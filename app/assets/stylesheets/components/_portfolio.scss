@@ -26,22 +26,6 @@ hr{
   display: grid;
   grid-gap: 30px;
   padding: 20px 20px 20px 0;
-  h6{
-    padding-top: 20px;
-    text-align: center;
-  }
-  a{
-    text-decoration: none;
-    font-size: 20px;
-    color: #000000;
-    display: inline-block;
-    width: 100%;
-    &:hover{
-      transition:all 400ms;
-      color: #EC2E57;
-      // opacity: 1;
-    }
-  }
 
   @media screen and (min-width: 320px) {
     grid-template-columns: 1fr;
@@ -80,11 +64,16 @@ hr{
       height: 400px;
     }
 
-    a {
-      color: black;
-      :hover{
-        opacity: 0.8;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    a{
+      text-decoration: none;
+      font-size: 20px;
+      color: #000000;
+      display: inline-block;
+      width: 100%;
+      &:hover{
+        transition:all 400ms;
+        color: #EC2E57;
+        // opacity: 1;
       }
     }
   }
