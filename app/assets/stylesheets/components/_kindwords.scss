@@ -24,8 +24,13 @@ hr{
   flex-grow: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
-  padding: 20px 20px 20px 0;
+  padding-left: 0;
+  // grid-gap: 20px;
+  // padding: 20px 20px 20px 0;
+  //   justify-content: center;
+  //   align-content: stretch;
+  //   align-items: baseline;
+  //   justify-items: end;
   h6{
     padding-top: 20px;
     text-align: center;
